@@ -2,6 +2,12 @@
 
 A sleek, modern temperature converter web application featuring a stunning glassmorphism UI with dark/light theme support and interactive animations.
 
+<p align="center">
+  <a href="https://naivedhP2518.github.io/Temperature-Converter/">
+    <img src="https://img.shields.io/badge/🚀_Live_Demo-Click_Here-4facfe?style=for-the-badge&logo=github" alt="Live Demo">
+  </a>
+</p>
+
 ## 🖼️ Preview
 
 |                 Dark Mode                  |                  Light Mode                  |
