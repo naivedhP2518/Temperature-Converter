@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Temperature Converter</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  
+  <div class="background-orb"></div>
+  <div class="background-orb orb-2"></div>
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <header>
+    <div class="logo">TempConvert<span class="dot">.</span></div>
+    <!-- Toggle Switch -->
+    <label class="theme-switch">
+      <input id="themeToggle" type="checkbox" />
+      <span class="slider"></span>
+    </label>
+  </header>
+
+  <main class="container">
+    <div class="glass-card">
+      <div class="card-header">
+        <h2>Converter</h2>
+        <p>Precise temperature conversion</p>
+      </div>
+      
+      <div class="converter-body">
+        <div class="input-group">
+          <label for="inputTemp">Temperature</label>
+          <input type="number" id="inputTemp" placeholder="0" />
+        </div>
+
+        <div class="unit-row">
+          <div class="select-group">
+            <label for="fromUnit">From</label>
+            <select id="fromUnit">
+              <option value="C">Celsius (°C)</option>
+              <option value="F">Fahrenheit (°F)</option>
+              <option value="K">Kelvin (K)</option>
+              <option value="R">Rankine (°R)</option>
+            </select>
+          </div>
+          
+          <div class="arrow-icon">→</div>
+
+          <div class="select-group">
+            <label for="toUnit">To</label>
+            <select id="toUnit">
+              <option value="C">Celsius (°C)</option>
+              <option value="F" selected>Fahrenheit (°F)</option>
+              <option value="K">Kelvin (K)</option>
+              <option value="R">Rankine (°R)</option>
+            </select>
+          </div>
+        </div>
+
+        <button onclick="convertTemp()" class="convert-btn">
+          Convert Now
+        </button>
+
+        <div class="result-area">
+          <span class="result-label">Result</span>
+          <div class="result-value" id="result">---</div>
+        </div>
+      </div>
+      
+      <div class="history-section">
+        <h3>History</h3>
+        <div class="history-list" id="history"></div>
+      </div>
+    </div>
+  </main>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
