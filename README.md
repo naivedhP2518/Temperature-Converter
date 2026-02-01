@@ -2,7 +2,11 @@
 
 A sleek, modern temperature converter web application featuring a stunning glassmorphism UI with dark/light theme support and interactive animations.
 
-![Temperature Converter Screenshot](assets/images/Screenshot%202026-02-01%20180557.png)
+## 🖼️ Preview
+
+|                 Dark Mode                  |                  Light Mode                  |
+| :----------------------------------------: | :------------------------------------------: |
+| ![Dark Mode](assets/images/UIDarkMode.png) | ![Light Mode](assets/images/UILightMode.png) |
 
 ---
 
@@ -53,7 +57,8 @@ Temperature-Converter/
     ├── 📁 js/
     │   └── script.js          # Conversion logic & interactivity (2.4KB)
     └── 📁 images/
-        └── screenshot.png     # App preview image
+        ├── UIDarkMode.png     # Dark theme preview
+        └── UILightMode.png    # Light theme preview
 ```
 
 ---
@@ -129,12 +134,6 @@ Contributions are welcome! Feel free to:
 
 ---
 
-## 📝 License
-
-This project is open source and available under the **MIT License**.
-
----
-
 <p align="center">
-  Made with ❤️ by <strong>Your Name</strong>
+  Made with ❤️ by <strong>Naivedh Patel</strong>
 </p>
