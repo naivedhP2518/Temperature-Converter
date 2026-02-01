@@ -129,12 +129,6 @@ Contributions are welcome! Feel free to:
 
 ---
 
-## 📝 License
-
-This project is open source and available under the **MIT License**.
-
----
-
 <p align="center">
-  Made with ❤️ by <strong>Your Name</strong>
+  Made with ❤️ by <strong>Naivedh Patel</strong>
 </p>
